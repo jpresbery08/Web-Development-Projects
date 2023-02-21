@@ -11,7 +11,8 @@ body{
     width: 40vmin;
     height: 56vmin;
     object-fit: cover;
-    object-position: center;
+    /* This line is important to understanding the special image effect */
+    object-position: center; 
 }
 
 #image-track{
