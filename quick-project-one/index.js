@@ -28,15 +28,15 @@ window.onmousemove = e => {
         // this value becomes the new start point instead of zero 
         // (Ex. percentage = 0 + prevPercentage = 43 would make next Percentage equal 43 which would be the new percentage aka STARTING POINT)
             nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage;
+            
         // setting the min and max value of screen when draggging
-        
             const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
         
         // Constantly storing the progression of the mouse movement which allows for the progression to not revert back too the beginning of the intiated drag
           track.dataset.percentage = nextPercentage;
 
     // starts from 0% on the screen and can flucate with wherever the mouse is clicked at and store in the perecentage area
-    // track.style.transform = `translate(${nextPercentage}%, -50%)`;
+    
     track.animate({
         transform: `translate(${nextPercentage}%, -50%)`
     }, { duration: 1200, fill: "forwards" });
