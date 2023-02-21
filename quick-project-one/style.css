@@ -13,6 +13,7 @@ body{
     object-fit: cover;
     /* This line is important to understanding the special image effect */
     object-position: center; 
+    user-select: none; /* -- Prevent image highlighting -- */
 }
 
 #image-track{
