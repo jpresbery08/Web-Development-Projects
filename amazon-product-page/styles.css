@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+/* Styling for content page */
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.left-side{
+    padding: 20px;
+}
+.right-side{
+    padding: 30px;
+    font-size: 18px;
+}
+/* Styling left side p tag */
+.left-side p {
+    color: #565959; 
+}
+/* Styling for right side TITLE */
+.title {
+    font-weight: lighter;
+}
+
+/* Styling for Book and book rating image  */
+.main-img {
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+.rating-img {
+    width: 100px;
+}
+
+/* Uility Classes */
+.border-line{
+    margin: 14px auto;
+    border-bottom: 1px solid black;
+}
+
+.links {
+    color: #007185;
+}
