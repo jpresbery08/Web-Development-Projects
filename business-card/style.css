@@ -1,0 +1,37 @@
+/* Styling for body */
+body {
+    font-family: sans-serif;
+    background-color: #f5ebe0;
+    margin: 20px;
+    height: 100%; 
+    overflow: hidden;
+}
+
+/* Styling for main card */
+.card {
+    position:relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-around;
+    width: 425px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #edede9;
+    border-bottom: 6px solid #cbada4;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 #d3baab, 0 6px 20px 0 #d5bdafc5;
+}
+/* Styling for avatar image on the left */
+.avatar {
+    width: 180px;
+    border-radius: 15%;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Styling for Github Link */
+.card div a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #121212;
+}
