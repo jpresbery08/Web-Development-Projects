@@ -1,0 +1,235 @@
+/* Utilty Tags */
+h1, h2, h3, h4, h5 {
+    text-shadow: 0 0 1px #121212;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.2;
+    color: #121212;
+}
+/* STYLING FOR BODY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+/* -------------------
+STYINLG FOR HERO SECTION
+---------------------- */
+
+#hero-section {
+
+    background-image: url("images/city-view-large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 900px;
+    box-shadow: 0 4px 8px 0 #3e3b3b;
+}
+
+/* -------------------
+STYINLG FOR NAVBAR in HERO SECTION
+---------------------- */
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    margin:10px 40px 0 0;
+    float: right;
+
+}
+#navbar a{
+   font-weight: bold;
+   font-size: 18px;
+   color: #7a7f81;
+   margin-right: 15px;
+   padding: 0 10px;  
+}
+
+
+#navbar a:hover{
+    border-bottom: 2px solid #6A666B;
+}
+/* -----------------------------------
+STYINLG FOR MAIN CONTENT in HERO SECTION 
+------------------------------------- */
+
+#main-content{
+    position: relative;
+    top: 425px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+
+#main-title {
+    color: #FDE2BF;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+#sub-title{
+    color: #fcfffe;
+    font-size: 40px;
+    margin-top: 4px;
+} 
+
+#btn {
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    background-color: #86a8b6;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 20px 45px;
+    border: none;
+    border-radius: 40px;
+    text-shadow: 0 0 1px black;
+}
+
+#btn:hover{
+    background-color:#6f8d9a; 
+    font-size: 20px;
+}
+
+/* -----------------------------------
+STYINLG FOR TOP EXPERIENCES in EXPERIENCE SECTION 
+------------------------------------- */
+
+#top-experiences {
+
+    margin-top: 5px;
+    padding-top: 20px;
+    background: linear-gradient(#ede3cf, #f5f2ed, white);
+    margin-bottom: 0;
+}
+
+/* Styling for Top Experiences Title */
+#experience-title{
+    margin: 20px 0 0 25px;
+    color: #86a8b6;
+}
+
+#experience-title h4 {
+    margin-bottom: 10px;
+}
+#experience-title h1 {
+    margin-top: 0;
+    color: black;
+    margin-left: 5px;
+}
+
+/* Styling for Experiences */
+#experiences-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 500px;   
+    padding-bottom: 50px;   
+}
+
+.experience-item {
+    width: 400px;
+    padding: 10px;
+    margin: 0;
+}
+
+.experience-name{
+    color:#86a8b6;
+}
+/* Extrea styling */
+#experience-item-two{
+    padding-top: 20px;
+}
+#experience-item-three{
+    padding-top: 20px;
+}
+
+/* -----------------------------------
+STYINLG FOR BUTTON in EXPERIENCE SECTION 
+------------------------------------- */
+
+/* -----------------------------------
+STYINLG FOR IMAGES in EXPERIENCE SECTION 
+------------------------------------- */
+.experience-img{
+    margin: 0 auto;
+    height: 200px;
+    width: 300px;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    box-shadow: 0 4px 4px 0 #3e3b3b, 0 3px 20px 0 #3e3b3b;
+}
+
+#experience-market {
+    background-image: url("images/market.jpg");
+}
+
+#experience-love {
+    background-image: url("images/loved.jpg");
+}
+
+#experience-park {
+    background-image: url("images/park.jpg");
+}
+
+
+
+/* -----------------------------------
+STYINLG FOR BUTTON in EXPERIENCE SECTION 
+------------------------------------- */
+.btn {
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 6px;
+    background-color: #86a8b6;
+    border: none;
+}
+.btn:hover {
+    background-color: #6f8d9a;
+}
+.btn a{
+    color: white;
+}
+
+/* -----------------------------------
+        STYINLG FOR FOOTER SECTION 
+------------------------------------- */
+#footer{
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid black;
+    width: 90%;
+}
+
+#footer a{
+    margin-right: 4px;
+    padding-right: 8px;
+    font-weight: bold;
+    color: #121212;
+    border-right: 1px solid black;
+}
+#footer a:last-child {
+    border-right: none;
+}
+
+/* 
+GREEN FOR BUTTONS: #a1beb7
+BLUE FOR BUTTONS: #86a8b6   
+BLUE FOR HOVER: #6f8d9a;
+*/
