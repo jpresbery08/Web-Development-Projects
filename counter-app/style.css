@@ -1,0 +1,80 @@
+/* -----------------------
+    BODY/IMAGE STYLING
+------------------------- */
+
+body {
+    background-image: url("color.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+/* -----------------------
+    TITLE/TEXT STYLING
+------------------------- */
+h1, h2 {
+    text-shadow: 0 0 2px black;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* -----------------------
+    BUTTON STYLING
+------------------------- */
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+#increment-btn {
+    background:  #FFA500 ;
+}
+
+#increment-btn:hover {
+    background: #ecbc63 ;
+}
+
+#save-btn {
+    background: #2E8B57 ;
+}
+
+#save-btn:hover {
+    background: #47b677 ;
+}
+
+/* -----------------------
+    CONTAINER STYLING
+------------------------- */
+
+#main-container {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+#container {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
