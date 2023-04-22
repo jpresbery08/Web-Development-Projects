@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <!-- Importing CSS File -->
+       <link rel="stylesheet" href="styles.css">
+       <!-- Title -->
+       <title>Basketball Scoreboard</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- <h1>Basketball Scoreboard</h1> -->
+            <div class="container">
+                <!-- Home Side -->
+                <div id="home" class="center">
+                    <div>
+                        <h2>HOME</h2>
+                    </div>
+                    <div class="score font">
+                        <p id="home-score">0</p>
+                    </div>
+                    <div class="btn-layout">
+                        <button class="btn" onclick="homePlusOne()"> +1 </button>
+                        <button class="btn"   onclick="homePlusTwo()"> +2 </button>
+                        <button class="btn"   onclick="homePlusThree()"> +3 </button>
+                    </div>
+                    <div class="minus-one">
+                        <button class="btn minus-one-btn" onclick="homeMinusOne()"> -1 </button>
+                    </div>
+                </div>
+                
+                <!-- NEW GAME -->
+                <div class="new-game">
+                    <button id="new-game" class="btn" onclick="newGame()">NEW GAME</button>
+                </div>
+
+                <!-- Guest SIde -->
+                <div id="guest" class="center">
+                    <div>
+                        <h2>GUEST</h2>
+                    </div>
+                    <div class="score font">
+                        <p id="away-score">0</p>
+                    </div>
+                    <div class="btn-layout">
+                        <button class="btn" onclick="awayPlusOne()"> +1 </button>
+                        <button class="btn"  onclick="awayPlusTwo()"> +2 </button>
+                        <button class="btn"  onclick="awayPlusThree()"> +3 </button>
+                    </div>
+                     <div class="minus-one">
+                        <button class="btn minus-one-btn" onclick="awayMinusOne()"> -1 </button>
+                    </div>
+                    
+                </div>
+             
+            </div>
+        </div>
+
+        <!-- Importing Javascript -->
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,158 @@
+
+/* -------------------------------
+         ULTILITY CLASSES 
+---------------------------------*/
+p {
+    position: relative;
+    top: 20px;
+    margin:0 auto;
+}                 
+.center{
+    text-align: center;
+}                          
+
+
+
+
+/* -------------------------------
+        IMPORITNG FONT
+---------------------------------*/
+@font-face {
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+    font-family: cursedTimer;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    /* DISABLE HIGHLIGHTING */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard syntax */
+}
+
+/* -------------------------------=========
+        STYLING FOR TITLES / HOME AND AWAY 
+---------------------------=========------*/
+/* h1 {
+    position: absolute;
+    top: 5px;
+    left: 125px;
+    margin: 0 auto;
+    color: #EEEEEE;
+} */
+
+h2 {
+    font-size: 40px;
+    color: #EEEEEE;
+    text-shadow: 0 0 1px black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* -------------------------------=========
+        STYLING FOR SCORE AND SCOREBOARD 
+---------------------------=========------*/
+
+.font, button{
+    font-family: cursedTimer;
+}
+
+.main-container {
+    position: relative;
+    top: 20%;
+    margin: auto;
+    background-color: #1B244A;
+    background-image: linear-gradient( #272f54, #1B244A, #1e2443);
+    border: 1px solid black;
+    height: 385px;
+    width: 600px;
+    padding-top: 40px;
+    padding: 60px 20px 0 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.495), 0 6px 20px 0 rgba(0, 0, 0, 0.461);
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.center {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.score {
+    color: #F94F6D;
+    background-color: #080001;
+    border: 1px solid white;
+    height: 120px;
+    width: 155px;
+    font-size: 90px;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+
+
+
+/* -------------------------------
+         STYLING FOR BUTTONS  
+---------------------------------*/
+.btn-layout{
+    margin-top: 20px;
+    
+}
+
+.btn{
+    height: 45px;
+    width: 45px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 18px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.172);
+}
+
+
+/* -------------------------------
+    STYLING FOR MINUS BUTTON 
+---------------------------------*/
+.minus-one {
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    text-align: center;
+}
+
+.minus-one-btn {
+    width: 80px;
+    color: #F94F6D;
+    border: 2px solid #F94F6D;
+}
+
+/* -------------------------------
+    STYLING FOR NEW GAME BUTTON 
+---------------------------------*/
+#new-game {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    position: relative;
+    top: 40%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
