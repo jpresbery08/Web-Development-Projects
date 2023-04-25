@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+
+            <!-- Heading Section -->
+            <div id="heading">
+                <h2 id="title">Generate</h2>
+                <h2 id="subtitle"><span>Random Password</span></h2>
+                <p>Never use an insecure password again.</p>
+            </div>
+            
+
+            
+            <!-- Generate Random Password Button -->
+            <button onclick="randomPassword()"> Generate Passwords </button>
+
+            <div id="border-line"></div>
+
+            
+            <!-- Click ot copy password -->
+            <h3><span>Note:</span> Be sure to highlight in order to Copy password)</h3>
+            <div id="password-section">
+            <!-- Random Password Outputs -->
+                <div id="left-password">
+                    <p>Password #1</p>
+                    <div id="password-one" class="password"></div>   
+                </div>
+                <div id="right-password">
+                    <p>Password #2</p>
+                    <div id="password-two" class="password"></div>
+                </div>
+                
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

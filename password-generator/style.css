@@ -1,0 +1,119 @@
+
+/* Importing Font */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap');
+
+
+/*----------------------
+    STYLING FOR BODY
+------------------------ */
+
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    background-color: #1F2937;
+    color: black;
+}
+
+#heading {
+    font-weight: 800;
+    font-size: 40px;
+    
+}
+
+#title{
+    margin-bottom: 0;
+}
+
+#subtitle{
+    color: rgb(155, 109, 155);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#title, #subtitle {
+    line-height: 1;
+}
+p {
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+/*----------------------
+    STYLING FOR CONTAINER
+------------------------ */
+#container {
+    position: relative;
+    top: 20%;
+    height: 550px;
+    width: 550px;
+    background-color: #EEEEEE;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 6px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*----------------------
+    STYLING FOR BUTTON
+------------------------ */
+button {
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: #EEEEEE;
+    background-color: rgb(155, 109, 155);
+    border: none;
+    transition-duration: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 40px;
+}
+
+button:hover{
+    background-color: rgb(176, 135, 176);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h3 span {
+    font-size: 21px;
+    color: #1F2937;
+}
+/*-------------------------------------
+    STYLING FOR BORDER LINE DIVIDER
+------------------------------------- */
+#border-line{
+    border-bottom: 1px solid #1F2937;
+    height: 0px;
+    width: 446px;
+    margin: 20px auto;
+}
+
+
+/*-------------------------------------
+    STYLING FOR PASSWORD SECTION
+------------------------------------- */
+#password-section{
+    position: relative;
+    top: 15px;  
+    display: flex;
+    justify-content: space-around;
+}
+
+#password-section p {
+    font-weight: bold;
+}
+.password {
+    position: relative;
+    bottom: 20px;
+    background-color: #1F2937;
+    color: white;
+    border-radius: 6px;
+    width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+}
