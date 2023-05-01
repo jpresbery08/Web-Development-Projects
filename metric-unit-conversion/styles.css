@@ -1,0 +1,119 @@
+/*----------------------
+    IMPORTING FONTS
+------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/*----------------------
+    STYLING FOR BODY
+------------------------ */
+body {
+    margin: 0;
+    color: white;
+    background-color: #212b38;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+/*----------------------
+    STYLING FOR MAIN BODY
+------------------------ */
+#main-body{
+    margin: 0 auto;
+    height: 729px;
+    width: 550px;
+    position: relative;
+    top: 10%;
+    border-radius: 4px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*----------------------
+    STYLING FOR HEADER/H1
+------------------------ */
+#header{
+    background-color: #26ae88;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin-top: 33px;
+    font-size: 28px;
+    font-weight: 800;
+}
+/*----------------------
+    STYLING FOR INPUT
+------------------------ */
+#input-el{
+    margin-top: 20px;
+    border: 2px solid #4fc9a9;
+    border-radius: 5px;
+    height: 83px;
+    width: 125px;
+    text-align: center;
+    font-size: 58px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+/* Code to hide arrows for input field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*----------------------
+    STYLING FOR BUTTON
+------------------------ */
+#convert-btn{
+    margin-top: 37px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 9px 27px;
+    border-radius: 5px;
+    border: none;
+    color: #191E29;
+    background-color: white;
+}
+ #convert-btn:hover{
+    background-color: rgb(222, 215, 215);
+ }
+
+ /*----------------------
+    STYLING FOR CONTAINER
+------------------------ */
+#container{
+    background-color: #191E29;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*----------------------
+    STYLING FOR ITEMS WITHIN CONTAINER
+------------------------ */
+.item {
+    background-color: #132D46;
+    margin: 0 auto;
+    width: 500px;
+    height: 108px;    
+}
+
+.item h2 {
+    color: #a7edd9;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item p{
+    color: white;
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: 400;
+}
