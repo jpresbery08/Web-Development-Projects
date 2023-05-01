@@ -56,7 +56,7 @@ function convertMass(userNum) {
     const poundsToKilo = userNum * 0.45359237;
     
     // Html output of Kilos/Pounds
-    massEL.innerHTML = 
-    `${userNum} kilos = ${metersToFeet.toFixed(3)} pounds | ${userNum} pounds = ${feetToMeters.toFixed(3)} kilos`
+    massEl.innerHTML = 
+    `${userNum} kilos = ${kiloToPounds.toFixed(3)} pounds | ${userNum} pounds = ${poundsToKilo.toFixed(3)} kilos`
     
 }
