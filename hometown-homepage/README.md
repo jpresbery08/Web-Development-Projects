@@ -9,7 +9,7 @@ Software Used:
 - VsCode
 
 Sources:
-- ttps://readingterminalmarket.org/about-the-market/
+- https://readingterminalmarket.org/about-the-market/
 - https://www.visitphilly.com/things-to-do/attractions/love-statue/
 - https://www.delawareriverwaterfront.com/places/spruce-street-harbor-park
 
