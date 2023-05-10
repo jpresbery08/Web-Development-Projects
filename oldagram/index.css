@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
+
+/* -======================================
+    ULTILITY CLASSES
+========================================== */  
+.bold{
+    font-weight: bold;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    background-color: rgb(230, 225, 225);
+}
+
+.container {
+    position: relative;
+    top: 15%;
+    margin: 0 auto;
+    height: 544px;
+    width: 375px;
+    border-collapse: separate; 
+    background-color: #fff;
+    margin-bottom: 25px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+/* -======================================
+    HEADER STYLING
+========================================== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    width: 370px;
+    border-collapse: separate; 
+    background-color: #fff;
+    height: 60px;
+    margin: 0 auto;
+
+}
+#logo {
+    padding: 0;
+    width: 127px;
+}
+
+#user-avatar,
+#avatar{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+
+#logo, 
+#user-avatar,
+#avatar {
+    margin: 5px 10px; 
+}
+
+/* -======================================
+    USER INFO STYLING
+========================================== */   
+
+.user-info{
+    height: 50px; 
+    display: flex;
+    align-items: center;
+}
+
+#name {
+    font-weight: bold;
+}
+
+/* -======================================
+    POST IMAGE STYLING
+========================================== */   
+
+#post {
+    height: 375px;
+    width: 375px;
+}
+
+/* -======================================
+    ICONS STYLING
+========================================== */  
+.section-three {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.icons {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+
+}
+
+.item {
+    width: 23px;
+}
+
+#likes-el,
+#caption-el {
+    padding: 10px 0 0  14px;
+}
