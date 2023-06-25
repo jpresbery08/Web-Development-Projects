@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Mobbile Restaurant Menu">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="index.css">
+
+        <!-- IMPORTING FONT AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <title>Restaurant Menu</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <!-- background image -->
+                <h1>Just <span class="orange">Salad</span> </h1>
+                <p>The best salad <span class="green">and</span> sandwiches in town.</p>
+            </header>
+            
+            <main>
+                
+                <div class="menu" id="menu">
+                    <!-- Menu Items here -->
+                </div>
+                
+               <div class="your-order" id="your-order"> 
+                   <!-- Your order goes here -->
+                   <h2 class="center"> Your order </h2>
+                   <i class="fa-solid fa-square-chevron-down"></i>
+
+                   
+                   <div class="ordered" id="order">
+                        <!-- ADDED ITEMS GO HERE -->       
+                  </div>
+                            
+                    <!-- Divider  -->
+                    <div class="divider"></div>
+                    
+                    <!-- Total Price Section -->
+                    <div class="order" id="your-total">
+                            <h1> Total Price </h1>
+                            <h2 class="item-price" id="total-price"> $0<h2>
+                        </div>       
+        
+                        <button id="complete-order" class="btn complete-order">Complete order</button>
+                </div>
+                
+               
+                <div id="payment-details" class="payment-details hidden">
+                    <h1>Enter card details</h1>
+                    <form id="customer-info">
+                        <!-- Name Input -->
+                        <input type="text" 
+                               name="customerName" 
+                               id="customerName"
+                               placeholder="Enter your name"
+                               required />
+                        <!-- Card Input -->
+                     <input type="number" 
+                               name="cardNumber" 
+                               id="cardNumber"
+                               placeholder="Enter card number"
+                               required 
+                               maxlength="5"/>
+                        <!-- Cvv input -->
+                        <input type="number" 
+                               name="cardCVV" 
+                               id="cardCVV"
+                               placeholder="Enter CVV" 
+                               required />
+    
+                        <!-- Once pay button is entered you -->
+                        <button value="submit" type="submit" id="pay-btn" class="btn">Pay</button>
+                    </form>
+                </div>
+            
+                  
+                    <!-- Thank You -->
+                    <div class="thank-you" id="thank-you">
+                        
+                    </div>
+                    <div id="processing" class="processing hidden" > 
+                        <h1>Processing Payment</h1>
+                        <div class="loader"></div>
+                    </div>
+                
+                
+               
+                
+                
+            </main>    
+        </div>
+
+        <!-- Importing Js -->
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
