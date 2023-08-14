@@ -117,3 +117,22 @@ h3 span {
     padding-top: 10px;
     font-size: 20px;
 }
+
+/*-------------------------------------
+    RESPONSIVE DESIGN FOR PHONE LAYOUT
+------------------------------------- */
+@media (max-width: 767px) {
+    #container {
+        position: relative;
+        top: 10%;
+        height: 750px;
+        width: 450px;
+        padding: 10px 30px;
+    }
+    
+    #password-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
