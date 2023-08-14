@@ -7,12 +7,12 @@ let passwordOne = document.getElementById("password-one");
 let passwordTwo = document.getElementById("password-two");
 
 // Function that returns ONE random character
-function getRandCharacter() {
-    let randomIndex = Math.floor( Math.random() * characters.length);
-    return characters[randomIndex];    
+const getRandCharacter = () => {
+    let randomIndex = Math.floor(Math.random() * characters.length);
+    return characters[randomIndex];
 }
 
-// Function that runs a for looop and each time a new character is produced since 
+// Function that runs a for loop and each time a new character is produced since 
 function randomPassword() {
 
     // Generating First Password
