@@ -14,10 +14,15 @@ body{
     /* This line is important to understanding the special image effect */
     object-position: center; 
     user-select: none; /* -- Prevent image highlighting -- */
+    transition: 0.3s;
 }
 
 #image-track{
     display: flex;
-    gap: 4vmin;
+    gap: 3vmin;
     position: absolute; left: 50%; top: 50%; transform: translate(0%, -50%);
+}
+
+img:hover {
+    transform: scale(1.1);
 }
