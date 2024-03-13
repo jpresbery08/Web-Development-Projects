@@ -1,4 +1,8 @@
+/* Importing Font */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
+    font-family: "Kanit", sans-serif;
     height: 100vh;
     width: 100vw;
     background-color: black;
@@ -7,6 +11,11 @@ body{
     color: white;
 }
 
+h1 {
+    user-select: none;
+    text-align: center;
+    font-size: 5rem;
+}
 #image-track > .image {
     width: 40vmin;
     height: 56vmin;
@@ -19,10 +28,11 @@ body{
 
 #image-track{
     display: flex;
-    gap: 3vmin;
+    gap: 4vmin;
     position: absolute; left: 50%; top: 50%; transform: translate(0%, -50%);
 }
 
 img:hover {
+    cursor: pointer;
     transform: scale(1.1);
 }
